@@ -4,6 +4,6 @@
 // }
 
 export {Activator}                   from './activator'
-export {ElementActivator}            from './aelement-activator'
-export {PropertyActivator}           from './aelement-activator'
-export {AiActivatorAttachedBehavior} from './aelement-activator'
+export {ElementActivator}            from './ai-activator'
+export {PropertyActivator}           from './property-activator'
+export {AiActivatorAttachedBehavior} from './element-activator'
