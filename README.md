@@ -1,4 +1,4 @@
-# aurelia-event-aggregator
+# aurelia-interface-activator
 
 This library is part of the [Aurelia](http://www.aurelia.io/) platform and contains a lightweight pub/sub messaging system for app-wide or per-object loosely coupled events.
 

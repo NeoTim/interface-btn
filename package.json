@@ -1,7 +1,7 @@
 {
-  "name": "aurelia-event-aggregator",
+  "name": "aurelia-interface-activator",
   "version": "0.2.4",
-  "description": "A lightweight pub/sub messaging system for app-wide or per-object loosely coupled events.",
+  "description": "A simple element and component activation tool / customAttribute",
   "keywords": [
     "aurelia",
     "event aggregator",
@@ -10,20 +10,23 @@
   ],
   "homepage": "http://aurelia.io",
   "bugs": {
-    "url": "https://github.com/aurelia/event-aggregator/issues"
+    "url": "https://github.com/joelcoxokc/aurelia-interface-activator/issues"
   },
   "license": "MIT",
-  "author": "Rob Eisenberg <rob@bluespire.com> (http://robeisenberg.com/)",
+  "author": "Joel Cox <joel.cox.dev@gmail.com> (http://joelcox.io/)",
   "main": "dist/commonjs/index.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/aurelia/event-aggregator"
+    "url": "http://github.com/joelcoxokc/aurelia-interface-activator"
   },
   "jspm": {
     "main": "index",
     "format": "register",
     "directories": {
       "lib": "dist/system"
+    },
+    "dependencies": {
+      "aurelia-templating": "^0.8.14"
     }
   },
   "devDependencies": {
