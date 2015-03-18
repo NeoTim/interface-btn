@@ -1,6 +1,6 @@
-# aurelia-interface-activator
+# aurelia-interface-btn
 
-This library is part of the [Aurelia](http://www.aurelia.io/) platform and contains a lightweight pub/sub messaging system for app-wide or per-object loosely coupled events.
+This component is part of [Aurelia-Interface](http://github.com/joelcoxokc/aurelia-interface) 
 
 > To keep up to date on [Aurelia](http://www.aurelia.io/), please visit and subscribe to [the official blog](http://blog.durandal.io/). If you have questions, we invite you to join us on [our Gitter Channel](https://gitter.im/aurelia/discuss).
 
@@ -10,8 +10,7 @@ This library has **NO** external dependencies.
 
 ## Used By
 
-* [aurelia-bootstrapper](https://github.com/aurelia/bootstrapper)
-* [aurelia-router](https://github.com/aurelia/router)
+* [aurelia-interface-component](https://github.com/joelcoxokc/aurelia-interface) **Not Resleased**
 
 ## Platform Support
 
