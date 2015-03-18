@@ -1,6 +1,6 @@
 {
   "name": "interface-btn",
-  "version": "0.2.4",
+  "version": "0.1.0",
   "description": "aurelia-interface Button Component",
   "keywords": [
     "aurelia",
@@ -98,5 +98,43 @@
         }
       ]
     }
+  },
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "dependencies": {
+    "aurelia-tools": "^0.1.3",
+    "browser-sync": "^2.3.1",
+    "conventional-changelog": "^0.0.11",
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-babel": "^4.0.0",
+    "gulp-bump": "^0.1.13",
+    "gulp-concat": "^2.5.2",
+    "gulp-jshint": "^1.9.2",
+    "gulp-load-plugins": "^0.8.1",
+    "gulp-plumber": "^1.0.0",
+    "gulp-protractor": "^0.0.12",
+    "gulp-sourcemaps": "^1.5.1",
+    "gulp-stylus": "^2.0.1",
+    "gulp-yuidoc": "^0.1.2",
+    "jshint-stylish": "^1.0.1",
+    "karma": "^0.12.31",
+    "karma-babel-preprocessor": "^4.0.0",
+    "gulp-sequence": "^0.3.2",
+    "jasmine-core": "^2.2.0",
+    "gulp-changed": "^1.2.1",
+    "object.assign": "^1.1.1",
+    "require-dir": "^0.1.0",
+    "run-sequence": "^1.0.2",
+    "vinyl-paths": "^1.0.0",
+    "yargs": "^2.3.0",
+    "karma-jspm": "^1.1.4",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-jasmine": "^0.3.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
