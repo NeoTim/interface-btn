@@ -1,6 +1,7 @@
 var path = require('path');
 
-var appRoot = 'src/';
+var appRoot  = 'src/';
+var demoRoot = 'demo/';
 
 module.exports = {
   root: appRoot,
@@ -9,6 +10,15 @@ module.exports = {
   style: 'styles/**/*.css',
   output: 'dist/',
   doc:'./doc',
+  stylus:{
+      index:'./styles/index.styl',
+      all  :'./styles/**/*.styl'
+  },
   e2eSpecsSrc: 'test/e2e/src/*.js',
-  e2eSpecsDist: 'test/e2e/dist/'
+  e2eSpecsDist: 'test/e2e/dist/',
+  demo: {
+      source : demoRoot + '**/*.js',
+      html   : demoRoot + '**/*.html',
+      root   : demoRoot,
+  }
 };

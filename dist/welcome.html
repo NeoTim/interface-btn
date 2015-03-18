@@ -1,0 +1,71 @@
+<template>
+  <section>
+
+  </section>
+  <section>
+    <div class="row">
+      <div class="col-md-12">
+        <markdown>
+        # btn-Component
+
+        -------
+
+
+        </markdown>
+        <div class="panel">
+          <div class="panel-body">
+              <column>
+                 <div class="input-group">
+                     <label for="color">Color</label>
+                     <select name="color" value.bind="btnColor" class="form-control">
+                       <option value="default">Default</option>
+                       <option value="primary">Primary</option>
+                       <option value="success">Success</option>
+                       <option value="warning">Warning</option>
+                       <option value="danger">Danger</option>
+                     </select>
+                 </div>
+                 <div class="input-group">
+                   <label for="size">Size</label>
+                   <select name="size" value.bind="btnSize" class="form-control">
+                     <option value="xs">Extra Small</option>
+                     <option value="sm">Small</option>
+                     <option value="md">Medium</option>
+                     <option value="lg">Large</option>
+                   </select>
+                 </div>
+                 <div class="input-group">
+                   <label for="waves">Waves</label>
+                   <select name="waves" value.bind="btnWaves" class="form-control">
+                     <option value="light">Light</option>
+                     <option value="dark">Dark</option>
+                     <option value="red">Red</option>
+                     <option value="yellow">Yellow</option>
+                     <option value="orange">Orange</option>
+                     <option value="purple">Purple</option>
+                     <option value="green">Green</option>
+                     <option value="teal">Teal</option>
+                   </select>
+                 </div>
+             </column>
+             <column>
+                <button ai-btn="color.bind:btnColor; waves.bind:btnWaves; size:xl; glyphicon:user;" type="submit" class=""></button>
+                <button ai-btn="color.bind:btnColor; waves.bind:btnWaves; size:lg;" type="submit" class=""> Button</button>
+                <button ai-btn="color.bind:btnColor; waves.bind:btnWaves; size.bind:btnSize; glyphicon:user;" type="submit" class=""></button>
+                <button ai-btn="color.bind:btnColor; waves.bind:btnWaves; size:sm; glyphicon:user;" type="submit" class=""> Button</button>
+             </column>
+          </div>
+        </div>
+        <example base="examples/1">
+              <column>
+                <file src="view-model.js" model="true"></file>
+              </column>
+              <column>
+                <file src="view.html" view="true"></file>
+              </column>
+        </example>
+      </div>
+    </div>
+  </section>
+
+</template>
